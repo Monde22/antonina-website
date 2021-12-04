@@ -19,7 +19,7 @@ import { useHistory } from 'react-router-dom';
         fetch('https://antonina-line-website.herokuapp.com', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
-            body: JSON.parse(list)
+            body: JSON.stringify(list)
         }).then(() => {
             console.log('New Passenger Added');
             setIsPending(false);
