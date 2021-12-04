@@ -2,7 +2,7 @@ import PassengerList from "./PassengerList";
 import useFetch from "./useFetch";
 
 const Home = () => {
-    const { data: lists, isPending, error } = useFetch('https://antonina-line-website.herokuapp.com/');
+    const { data: lists, isPending, error } = useFetch('https://antonina-line-website.herokuapp.com');
 
     return ( 
         <div className="home">
