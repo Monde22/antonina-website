@@ -16,7 +16,7 @@ import { useHistory } from 'react-router-dom';
 
         setIsPending(true);
 
-        fetch('https://antonina-line-website.herokuapp.com/lists', {
+        fetch('http://localhost:8000/lists', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(list)
