@@ -16,7 +16,7 @@ import { useHistory } from 'react-router-dom';
 
         setIsPending(true);
 
-        fetch('http://localhost:8000/lists', {
+        fetch('http://localhost:3000/lists', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(list)
