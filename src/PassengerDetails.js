@@ -3,11 +3,11 @@ import useFetch from './useFetch';
 
 const PassengerDetails = () => {
     const { id } = useParams();
-    const { data: list, error, isPending } = useFetch('https://antonina-line-website.herokuapp.com' + id);
+    const { data: list, error, isPending } = useFetch('https://antonina-line-website.herokuapp.com/lists/' + id);
     const history = useHistory();
 
     const handleClick = () =>{
-        fetch('https://antonina-line-website.herokuapp.com' + list.id, {
+        fetch('https://antonina-line-website.herokuapp.com/lists' + list.id, {
             method: 'DELETE'
         }).then(() => {
             history.push('/');
