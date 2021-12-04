@@ -1,0 +1,25 @@
+{
+  "lists": [
+    {
+      "name": "Kenneth Albert Alberto",
+      "seatNumber": "22",
+      "referenceNumber": "12345",
+      "travellingTo": "PITX TO TABACO",
+      "id": 1
+    },
+    {
+      "name": "Sherwin Beltran",
+      "seatNumber": "21",
+      "referenceNumber": "54321",
+      "travellingTo": "PITX TO LEGAZPI",
+      "id": 2
+    },
+    {
+      "name": "Anthony Albert Alberto",
+      "seatNumber": "28",
+      "referenceNumber": "3454646565",
+      "travellingTo": "PITX TO TIWI",
+      "id": 3
+    }
+  ]
+}
